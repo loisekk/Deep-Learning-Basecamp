@@ -1,0 +1,59 @@
+# Environment & secrets
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+api_keys.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+.venv-tf/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model artifacts (large files - track with Git LFS if needed)
+*.keras
+*.h5
+*.hdf5
+*.pb
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+
+# Ruff cache
+.ruff_cache/
+
+# Logs
+*.log
