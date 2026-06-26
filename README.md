@@ -4,7 +4,7 @@
 
 ```
 Deep-Learning-Basecamp/
-└── Hybrid Iris Classifier/
+└── Hybrid_Iris_Classifier/
     ├── ANN_Percp-Kearas.ipynb
     ├── app.py
     ├── requirements.txt
